@@ -10,5 +10,6 @@ public class LeapYearCondi {
         boolean isLeapYear = (year % 4 == 0) && (year % 100 != 0 || year % 400 == 0);
         String result = (isLeapYear) ? "Leap year" : "Not a leap year";
         System.out.println(year + " is " + result);
+        scanner.close();
     }
 }

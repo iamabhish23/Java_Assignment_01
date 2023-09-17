@@ -13,5 +13,6 @@ public class SquareRoot {
             double squareRoot = Math.sqrt(number);
             System.out.println("Square root of " + number + " is: " + squareRoot);
         }
+        scanner.close();
     }
 }

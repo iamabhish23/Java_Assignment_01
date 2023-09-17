@@ -15,5 +15,6 @@ public class CompoundInterest {
 
         double compoundInterest = principal * Math.pow(1 + (rate / 100), time) - principal;
         System.out.println("Compound Interest: " + compoundInterest);
+        scanner.close();
     }
 }

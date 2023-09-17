@@ -12,5 +12,6 @@ public class MaxBetweenTwoNumbersCondi {
 
         int max = (num1 > num2) ? num1 : num2;
         System.out.println("Maximum number: " + max);
+        scanner.close();
     }
 }

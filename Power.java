@@ -12,5 +12,6 @@ public class Power {
         
         double result = Math.pow(base, exponent);
         System.out.println(base + " ^ " + exponent + " = " + result);
+        scanner.close();
     }
 }

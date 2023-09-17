@@ -38,5 +38,6 @@ public class MonthDays {
         if (daysInMonth != -1) {
             System.out.println("Number of days in the month: " + daysInMonth);
         }
+        scanner.close();
     }
 }

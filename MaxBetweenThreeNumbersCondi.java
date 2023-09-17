@@ -15,5 +15,6 @@ public class MaxBetweenThreeNumbersCondi {
 
         int max = (num1 > num2) ? ((num1 > num3) ? num1 : num3) : ((num2 > num3) ? num2 : num3);
         System.out.println("Maximum number: " + max);
+        scanner.close();
     }
 }

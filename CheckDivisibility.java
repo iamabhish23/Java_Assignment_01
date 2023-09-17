@@ -10,5 +10,6 @@ public class CheckDivisibility {
         boolean isDivisible = (number % 5 == 0) && (number % 11 == 0);
         String result = (isDivisible) ? "Divisible by 5 and 11" : "Not divisible by 5 and 11";
         System.out.println(number + " is " + result);
+        scanner.close();
     }
 }

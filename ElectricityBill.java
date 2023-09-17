@@ -23,5 +23,6 @@ public class ElectricityBill {
         totalBill *= 1.20;
 
         System.out.println("Total electricity bill: " + totalBill);
+        scanner.close();
     }
 }

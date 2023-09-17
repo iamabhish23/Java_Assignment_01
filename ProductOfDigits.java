@@ -17,5 +17,6 @@ public class ProductOfDigits {
         }
 
         System.out.println("Product of digits: " + product);
+        scanner.close();
     }
 }

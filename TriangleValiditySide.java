@@ -17,5 +17,6 @@ public class TriangleValiditySide {
                           (side1 > 0 && side2 > 0 && side3 > 0);
         String result = (isValid) ? "valid" : "invalid";
         System.out.println("Triangle with sides " + side1 + ", " + side2 + ", " + side3 + " is " + result);
+        scanner.close();
     }
 }

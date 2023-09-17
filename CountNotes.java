@@ -40,5 +40,6 @@ public class CountNotes {
         System.out.println("Number of 5 rupee coins: " + notes5);
         System.out.println("Number of 2 rupee coins: " + notes2);
         System.out.println("Number of 1 rupee coins: " + notes1);
+        scanner.close();
     }
 }

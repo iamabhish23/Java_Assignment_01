@@ -14,5 +14,6 @@ public class CheckCase {
         } else {
             System.out.println(ch + " is not an alphabet");
         }
+        scanner.close();
     }
 }

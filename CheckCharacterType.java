@@ -14,5 +14,7 @@ public class CheckCharacterType {
         } else {
             System.out.println(ch + " is a special character");
         }
+        scanner.close();
+
     }
 }

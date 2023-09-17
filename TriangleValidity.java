@@ -16,5 +16,6 @@ public class TriangleValidity {
         boolean isValid = (angle1 + angle2 + angle3 == 180) && (angle1 > 0 && angle2 > 0 && angle3 > 0);
         String result = (isValid) ? "valid" : "invalid";
         System.out.println("Triangle with angles " + angle1 + ", " + angle2 + ", " + angle3 + " is " + result);
+        scanner.close();
     }
 }

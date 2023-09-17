@@ -20,5 +20,6 @@ public class TriangleType {
         } else {
             System.out.println("Triangle is scalene.");
         }
+        scanner.close();
     }
 }

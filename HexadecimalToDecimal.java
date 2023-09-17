@@ -10,6 +10,7 @@ public class HexadecimalToDecimal {
         int decimal = hexadecimalToDecimal(hexStr);
 
         System.out.println("Decimal equivalent: " + decimal);
+        scanner.close();
     }
 
     public static int hexadecimalToDecimal(String hexadecimal) {

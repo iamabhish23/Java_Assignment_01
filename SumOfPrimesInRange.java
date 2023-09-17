@@ -15,6 +15,7 @@ public class SumOfPrimesInRange {
         }
 
         System.out.println("Sum of prime numbers between 1 and " + n + ": " + sum);
+        scanner.close();
     }
 
     public static boolean isPrime(int num) {

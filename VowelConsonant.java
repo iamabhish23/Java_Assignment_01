@@ -18,5 +18,6 @@ public class VowelConsonant {
         } else {
             System.out.println(ch + " is not a valid alphabet");
         }
+        scanner.close();
     }
 }

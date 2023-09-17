@@ -10,5 +10,8 @@ public class CheckAlphabetCondi {
         boolean isAlphabet = ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'));
         String result = (isAlphabet) ? "Alphabet" : "Not an alphabet";
         System.out.println(ch + " is " + result);
+        
+        scanner.close();
     }
+    
 }

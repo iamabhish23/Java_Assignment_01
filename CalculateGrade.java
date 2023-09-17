@@ -40,5 +40,6 @@ public class CalculateGrade {
 
         System.out.println("Percentage: " + percentage + "%");
         System.out.println("Grade: " + grade);
+        scanner.close();
     }
 }

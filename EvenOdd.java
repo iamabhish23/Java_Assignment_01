@@ -9,5 +9,6 @@ public class EvenOdd {
 
         String result = (number % 2 == 0) ? "Even" : "Odd";
         System.out.println(number + " is " + result);
+        scanner.close();
     }
 }

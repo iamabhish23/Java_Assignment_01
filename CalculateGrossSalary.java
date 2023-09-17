@@ -22,5 +22,6 @@ public class CalculateGrossSalary {
 
         double grossSalary = basicSalary + hra + da;
         System.out.println("Gross salary: " + grossSalary);
+        scanner.close();
     }
 }

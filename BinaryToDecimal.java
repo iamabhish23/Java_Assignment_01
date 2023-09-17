@@ -10,6 +10,7 @@ public class BinaryToDecimal {
         int decimal = binaryToDecimal(binaryStr);
 
         System.out.println("Decimal equivalent: " + decimal);
+        scanner.close();
     }
 
     public static int binaryToDecimal(String binary) {
