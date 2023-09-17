@@ -1,6 +1,6 @@
 # T&P Java Foundational Assignment
 
-This repository contains Java programs for various foundational assignments related to mathematical and logical operations. Each program addresses a specific problem as described below:
+This repository contains Java programs of T&P foundational assignments related to mathematical and logical operations. Each program addresses a specific problem as described below:
 
 ## Assignment Questions
 
